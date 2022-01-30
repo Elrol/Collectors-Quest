@@ -1,0 +1,13 @@
+name = "RSInfinityBooster"
+filename = "RSInfinityBooster-1.18.1-2.0+14.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3613/352/RSInfinityBooster-1.18.1-2.0+14.jar"
+hash-format = "murmur2"
+hash = "3523316137"
+
+[update]
+[update.curseforge]
+file-id = 3613352
+project-id = 446870

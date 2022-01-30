@@ -1,0 +1,13 @@
+name = "EverlastingAbilities"
+filename = "EverlastingAbilities-1.18.1-1.7.3.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3593/765/EverlastingAbilities-1.18.1-1.7.3.jar"
+hash-format = "murmur2"
+hash = "1678976990"
+
+[update]
+[update.curseforge]
+file-id = 3593765
+project-id = 248353

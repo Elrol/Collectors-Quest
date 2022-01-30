@@ -1,0 +1,13 @@
+name = "FramedBlocks"
+filename = "FramedBlocks-4.1.0.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3613/605/FramedBlocks-4.1.0.jar"
+hash-format = "murmur2"
+hash = "739201772"
+
+[update]
+[update.curseforge]
+file-id = 3613605
+project-id = 441647

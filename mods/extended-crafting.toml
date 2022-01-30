@@ -1,0 +1,13 @@
+name = "Extended Crafting"
+filename = "ExtendedCrafting-1.18.1-4.0.0.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3606/681/ExtendedCrafting-1.18.1-4.0.0.jar"
+hash-format = "murmur2"
+hash = "286483313"
+
+[update]
+[update.curseforge]
+file-id = 3606681
+project-id = 268387

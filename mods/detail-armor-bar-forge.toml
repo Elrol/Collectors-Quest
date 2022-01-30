@@ -1,0 +1,13 @@
+name = "Detail Armor Bar [Forge]"
+filename = "DetailArmorBar-2.6.1+1.18.1-forge.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3623/972/DetailArmorBar-2.6.1+1.18.1-forge.jar"
+hash-format = "murmur2"
+hash = "606980153"
+
+[update]
+[update.curseforge]
+file-id = 3623972
+project-id = 520755

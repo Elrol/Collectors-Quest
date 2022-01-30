@@ -1,0 +1,13 @@
+name = "Dungeons Enhanced"
+filename = "dungeons_enhanced-1.18.1-3.0-BETA.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3608/281/dungeons_enhanced-1.18.1-3.0-BETA.jar"
+hash-format = "murmur2"
+hash = "2379781714"
+
+[update]
+[update.curseforge]
+file-id = 3608281
+project-id = 480715

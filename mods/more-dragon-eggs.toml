@@ -1,0 +1,13 @@
+name = "More Dragon Eggs"
+filename = "moredragoneggs-3.1.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3545/748/moredragoneggs-3.1.jar"
+hash-format = "murmur2"
+hash = "2098666661"
+
+[update]
+[update.curseforge]
+file-id = 3545748
+project-id = 358700

@@ -1,0 +1,13 @@
+name = "Collector's Quest"
+author = "Elrol"
+version = "0.0.3"
+pack-format = "packwiz:1.0.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "683a0277e953e25e6b9dedb3c876ef13553c6657c5e1c89e7d9d4e4c032bf8ae"
+
+[versions]
+forge = "39.0.59"
+minecraft = "1.18.1"

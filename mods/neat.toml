@@ -1,0 +1,13 @@
+name = "Neat"
+filename = "Neat 1.8-30.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3593/906/Neat 1.8-30.jar"
+hash-format = "murmur2"
+hash = "1939368929"
+
+[update]
+[update.curseforge]
+file-id = 3593906
+project-id = 238372

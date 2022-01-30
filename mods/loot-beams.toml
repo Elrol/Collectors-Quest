@@ -1,0 +1,13 @@
+name = "Loot Beams"
+filename = "lootbeams-1.18.1-release-jan1522.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3607/896/lootbeams-1.18.1-release-jan1522.jar"
+hash-format = "murmur2"
+hash = "2355738208"
+
+[update]
+[update.curseforge]
+file-id = 3607896
+project-id = 506757

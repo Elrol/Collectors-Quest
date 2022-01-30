@@ -1,0 +1,13 @@
+name = "KubeJS Immersive Engineering"
+filename = "kubejs-immersive-engineering-1801.2.0-build.29.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3612/560/kubejs-immersive-engineering-1801.2.0-build.29.jar"
+hash-format = "murmur2"
+hash = "925618634"
+
+[update]
+[update.curseforge]
+file-id = 3612560
+project-id = 421770

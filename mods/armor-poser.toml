@@ -1,0 +1,13 @@
+name = "Armor Poser"
+filename = "ArmorPoser-forge-1.18.1-1.0.2.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3583/135/ArmorPoser-forge-1.18.1-1.0.2.jar"
+hash-format = "murmur2"
+hash = "4019726414"
+
+[update]
+[update.curseforge]
+file-id = 3583135
+project-id = 450663

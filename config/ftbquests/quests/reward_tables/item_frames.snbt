@@ -1,0 +1,14 @@
+{
+	id: "1E8A1061AB958759"
+	order_index: 0
+	title: "Item Frames"
+	icon: "minecraft:item_frame"
+	loot_size: 1
+	use_title: true
+	rewards: [
+		{ item: "minecraft:item_frame", count: 5 }
+		{ item: "minecraft:glow_item_frame", count: 5 }
+		{ item: "quark:glass_item_frame", count: 5 }
+		{ item: "quark:glowing_glass_item_frame", count: 5 }
+	]
+}

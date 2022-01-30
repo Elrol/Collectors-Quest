@@ -1,0 +1,13 @@
+name = "RFTools Base"
+filename = "rftoolsbase-1.18-3.0.3.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3603/65/rftoolsbase-1.18-3.0.3.jar"
+hash-format = "murmur2"
+hash = "3843204279"
+
+[update]
+[update.curseforge]
+file-id = 3603065
+project-id = 326041

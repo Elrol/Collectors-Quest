@@ -1,0 +1,13 @@
+name = "FTB Quests (Forge)"
+filename = "ftb-quests-forge-1801.3.7-build.91.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3617/221/ftb-quests-forge-1801.3.7-build.91.jar"
+hash-format = "murmur2"
+hash = "457539748"
+
+[update]
+[update.curseforge]
+file-id = 3617221
+project-id = 289412

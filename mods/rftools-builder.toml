@@ -1,0 +1,13 @@
+name = "RFTools Builder"
+filename = "rftoolsbuilder-1.18-4.0.5.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3604/750/rftoolsbuilder-1.18-4.0.5.jar"
+hash-format = "murmur2"
+hash = "3143403050"
+
+[update]
+[update.curseforge]
+file-id = 3604750
+project-id = 347706

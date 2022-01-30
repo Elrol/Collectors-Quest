@@ -1,0 +1,869 @@
+{
+	id: "229088311A13FD08"
+	group: "717410C5D85FD311"
+	order_index: 0
+	filename: "armors"
+	title: "Armory"
+	icon: {
+		id: "minecraft:iron_chestplate"
+		Count: 1b
+		tag: {
+			Damage: 0
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Wooden Tools"
+			x: 6.5d
+			y: -1.5d
+			id: "0F009302FCBD7A12"
+			tasks: [
+				{
+					id: "357C478C7D24E391"
+					type: "item"
+					item: {
+						id: "minecraft:wooden_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "24FD9E32E3069062"
+					type: "item"
+					item: {
+						id: "minecraft:wooden_shovel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "09CC3EB7C62D9337"
+					type: "item"
+					item: {
+						id: "minecraft:wooden_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1308DB784518C176"
+					type: "item"
+					item: {
+						id: "minecraft:wooden_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4C93E3D937CB2895"
+					type: "item"
+					item: {
+						id: "minecraft:wooden_hoe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "2AF0CE667E491279"
+					type: "choice"
+					icon: { id: "minecraft:item_frame", Count: 5b }
+					table_id: 2200589379600484185L
+				}
+				{
+					id: "257EC5CE8152084E"
+					type: "item"
+					item: "kubejs:coin1"
+					count: 5
+				}
+			]
+		}
+		{
+			title: "Leather Armor"
+			x: 14.0d
+			y: -1.5d
+			id: "6CF1DCF0FA1F4ECA"
+			tasks: [
+				{
+					id: "297982C695CC7A5E"
+					type: "item"
+					item: {
+						id: "minecraft:leather_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7CD02F3FD4E6F310"
+					type: "item"
+					item: {
+						id: "minecraft:leather_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4950AF79BC3EF9AF"
+					type: "item"
+					item: {
+						id: "minecraft:leather_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "48ADBC0FE2057AF9"
+					type: "item"
+					item: {
+						id: "minecraft:leather_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "5ED3EB5B51EAD1D4"
+					type: "item"
+					item: "minecraft:armor_stand"
+				}
+				{
+					id: "075FB00BC00A2519"
+					type: "item"
+					item: "kubejs:coin1"
+					count: 4
+				}
+			]
+		}
+		{
+			title: "Stone Tools"
+			x: 8.0d
+			y: -1.5d
+			id: "5E5DF305E87EE2C9"
+			tasks: [
+				{
+					id: "199EF4F0C4B7630D"
+					type: "item"
+					item: {
+						id: "minecraft:stone_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6C335F48522B9E47"
+					type: "item"
+					item: {
+						id: "minecraft:stone_shovel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "58F13AF59911D230"
+					type: "item"
+					item: {
+						id: "minecraft:stone_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4D4AB940784B55E4"
+					type: "item"
+					item: {
+						id: "minecraft:stone_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "256001833D553105"
+					type: "item"
+					item: {
+						id: "minecraft:stone_hoe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "727A9B2B8B1E21FC"
+					type: "choice"
+					icon: { id: "minecraft:item_frame", Count: 5b }
+					table_id: 2200589379600484185L
+				}
+				{
+					id: "7C7AF8B7C0FFBE26"
+					type: "item"
+					item: "kubejs:coin1"
+					count: 5
+				}
+			]
+		}
+		{
+			title: "Iron Tools"
+			x: 6.5d
+			y: 0.0d
+			id: "7FA33569B51C57D1"
+			tasks: [
+				{
+					id: "1165472D9C73C19D"
+					type: "item"
+					item: {
+						id: "minecraft:iron_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "102E6E1E7520BBD0"
+					type: "item"
+					item: {
+						id: "minecraft:iron_shovel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1118176A5E40CB16"
+					type: "item"
+					item: {
+						id: "minecraft:iron_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0E86FC691A071127"
+					type: "item"
+					item: {
+						id: "minecraft:iron_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "313E6D19BB75A2C4"
+					type: "item"
+					item: {
+						id: "minecraft:iron_hoe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "159E2E8406CF0A88"
+					type: "choice"
+					icon: { id: "minecraft:item_frame", Count: 5b }
+					table_id: 2200589379600484185L
+				}
+				{
+					id: "1B806BAF55650BAC"
+					type: "item"
+					item: "kubejs:coin1"
+					count: 5
+				}
+			]
+		}
+		{
+			title: "Iron Armor"
+			x: 14.0d
+			y: 0.0d
+			id: "2E516CD860EAC40A"
+			tasks: [
+				{
+					id: "0BB5680D74892D39"
+					type: "item"
+					item: {
+						id: "minecraft:iron_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0272D072F9DC55B0"
+					type: "item"
+					item: {
+						id: "minecraft:iron_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "640935F9E6115060"
+					type: "item"
+					item: {
+						id: "minecraft:iron_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "15D552504A2C945B"
+					type: "item"
+					item: {
+						id: "minecraft:iron_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "1A0A10AEE75BA5E0"
+					type: "item"
+					item: "minecraft:armor_stand"
+				}
+				{
+					id: "2B35733418DDD0CD"
+					type: "item"
+					item: "kubejs:coin1"
+					count: 4
+				}
+			]
+		}
+		{
+			title: "Golden Tools"
+			x: 9.5d
+			y: -1.5d
+			id: "42B63C344B26EE65"
+			tasks: [
+				{
+					id: "3F2335E349E84FB9"
+					type: "item"
+					item: {
+						id: "minecraft:golden_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1C0A2E0EB1DE7034"
+					type: "item"
+					item: {
+						id: "minecraft:golden_shovel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6DC9DF6B0639EC76"
+					type: "item"
+					item: {
+						id: "minecraft:golden_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3A7D89B01AFCEA6B"
+					type: "item"
+					item: {
+						id: "minecraft:golden_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7FBEE141FAF01E56"
+					type: "item"
+					item: {
+						id: "minecraft:golden_hoe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "25393BA0BA8D169E"
+					type: "choice"
+					icon: { id: "minecraft:item_frame", Count: 5b }
+					table_id: 2200589379600484185L
+				}
+				{
+					id: "27DC76FCC3A72BF3"
+					type: "item"
+					item: "kubejs:coin1"
+					count: 5
+				}
+			]
+		}
+		{
+			title: "Diamond Tools"
+			x: 8.0d
+			y: 0.0d
+			id: "48B3BE7E9A8D6435"
+			tasks: [
+				{
+					id: "70A2ECF8CEA54C46"
+					type: "item"
+					item: {
+						id: "minecraft:diamond_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "39B544F28FC1068D"
+					type: "item"
+					item: {
+						id: "minecraft:diamond_shovel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "32F148AE2B960FD7"
+					type: "item"
+					item: {
+						id: "minecraft:diamond_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4836882785BF58E8"
+					type: "item"
+					item: {
+						id: "minecraft:diamond_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "177AF123CAE7452B"
+					type: "item"
+					item: {
+						id: "minecraft:diamond_hoe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "153E0CBA28A4B217"
+					type: "choice"
+					icon: { id: "minecraft:item_frame", Count: 5b }
+					table_id: 2200589379600484185L
+				}
+				{
+					id: "4A95B3588F77A71C"
+					type: "item"
+					item: "kubejs:coin1"
+					count: 5
+				}
+			]
+		}
+		{
+			title: "Netherite Tools"
+			x: 9.5d
+			y: 0.0d
+			id: "16E760F2731AE37A"
+			tasks: [
+				{
+					id: "0AC9A79320E0AF88"
+					type: "item"
+					item: {
+						id: "minecraft:netherite_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0582754D97054FE5"
+					type: "item"
+					item: {
+						id: "minecraft:netherite_shovel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "02F657384E9C7445"
+					type: "item"
+					item: {
+						id: "minecraft:netherite_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "73C0ECA9A79DEF7A"
+					type: "item"
+					item: {
+						id: "minecraft:netherite_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0C529F89A4AC2A70"
+					type: "item"
+					item: {
+						id: "minecraft:netherite_hoe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "771B4C6A627E0C69"
+					type: "choice"
+					icon: { id: "minecraft:item_frame", Count: 5b }
+					table_id: 2200589379600484185L
+				}
+				{
+					id: "6B3E5757590FF5C5"
+					type: "item"
+					item: "kubejs:coin1"
+					count: 5
+				}
+			]
+		}
+		{
+			title: "Chainmail Armor"
+			x: 15.5d
+			y: -1.5d
+			id: "3967401CF3F57EDD"
+			tasks: [
+				{
+					id: "3C3EB9FA02EB2A2A"
+					type: "item"
+					item: {
+						id: "minecraft:chainmail_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "235B30116765271A"
+					type: "item"
+					item: {
+						id: "minecraft:chainmail_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0F7A1571EF4DE3F4"
+					type: "item"
+					item: {
+						id: "minecraft:chainmail_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "01C18DBB5697FBE9"
+					type: "item"
+					item: {
+						id: "minecraft:chainmail_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "0D513B38C764A883"
+					type: "item"
+					item: "minecraft:armor_stand"
+				}
+				{
+					id: "42FE676F3F25EFEA"
+					type: "item"
+					item: "kubejs:coin1"
+					count: 4
+				}
+			]
+		}
+		{
+			title: "Golden Armor"
+			x: 17.0d
+			y: -1.5d
+			id: "4D6282BD716FB764"
+			tasks: [
+				{
+					id: "29BBA18CAF0FFC7A"
+					type: "item"
+					item: {
+						id: "minecraft:golden_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "164C91B20A11E195"
+					type: "item"
+					item: {
+						id: "minecraft:golden_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "107A84E642C8DB67"
+					type: "item"
+					item: {
+						id: "minecraft:golden_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "60E94821EE4B6731"
+					type: "item"
+					item: {
+						id: "minecraft:golden_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "732BABE6F2885EFE"
+					type: "item"
+					item: "minecraft:armor_stand"
+				}
+				{
+					id: "550FA1C57E656E0F"
+					type: "item"
+					item: "kubejs:coin1"
+					count: 4
+				}
+			]
+		}
+		{
+			x: 15.5d
+			y: 0.0d
+			id: "473EC94DD2C42502"
+			tasks: [
+				{
+					id: "5579D0439696F329"
+					type: "item"
+					item: {
+						id: "minecraft:diamond_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4E3114C3628213AF"
+					type: "item"
+					item: {
+						id: "minecraft:diamond_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3498093EE6C84B73"
+					type: "item"
+					item: {
+						id: "minecraft:diamond_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "43F5D0B9946D9CE1"
+					type: "item"
+					item: {
+						id: "minecraft:diamond_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "5FE63026612C25EE"
+					type: "item"
+					item: "minecraft:armor_stand"
+				}
+				{
+					id: "2591BE0071716FE7"
+					type: "item"
+					item: "kubejs:coin1"
+					count: 4
+				}
+			]
+		}
+		{
+			title: "Netherite Armor"
+			x: 17.0d
+			y: 0.0d
+			id: "4C2C6279904D600C"
+			tasks: [
+				{
+					id: "3258F65483CFCB17"
+					type: "item"
+					item: {
+						id: "minecraft:netherite_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "78886CBDB23ED5CB"
+					type: "item"
+					item: {
+						id: "minecraft:netherite_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "333AEC0B427C0120"
+					type: "item"
+					item: {
+						id: "minecraft:netherite_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2528ECC90FB37D55"
+					type: "item"
+					item: {
+						id: "minecraft:netherite_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "4C2896FA78324830"
+					type: "item"
+					item: "minecraft:armor_stand"
+				}
+				{
+					id: "2295E0EA66C4109F"
+					type: "item"
+					item: "kubejs:coin1"
+					count: 4
+				}
+			]
+		}
+	]
+}

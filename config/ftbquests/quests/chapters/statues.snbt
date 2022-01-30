@@ -1,0 +1,158 @@
+{
+	id: "6366599EA342A4E6"
+	group: "717410C5D85FD311"
+	order_index: 1
+	filename: "statues"
+	title: "Statues"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -2.5d
+			y: -2.5d
+			subtitle: "Lead Modpack Developer"
+			id: "52FB9C26D63E2A7B"
+			tasks: [{
+				id: "327C9E5E10C90D12"
+				type: "item"
+				title: "Elrol_Arrowsend"
+				icon: {
+					id: "statues:player_statue"
+					Count: 1b
+					tag: {
+						display: {
+							Lore: ["[{\"text\":\"Limited Edition\",\"italic\":false}]"]
+							Name: "[{\"text\":\"Elrol_Arrowsend\",\"italic\":false,\"color\":\"dark_green\"}]"
+						}
+					}
+				}
+				item: {
+					id: "itemfilters:strong_nbt"
+					Count: 1b
+					tag: {
+						value: {
+							display: {
+								Lore: ["[{\"text\":\"Limited Edition\",\"italic\":false}]"]
+								Name: "[{\"text\":\"Elrol_Arrowsend\",\"italic\":false,\"color\":\"dark_green\"}]"
+							}
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "231A9B8CC19E36F9"
+					type: "item"
+					item: "statues:display_stand"
+				}
+				{
+					id: "635DE07537235DC9"
+					type: "item"
+					item: {
+						id: "display_case:display_case"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: -0.5d
+			subtitle: "Administrator"
+			id: "33626CC9FAB0580A"
+			tasks: [{
+				id: "1F8E1B6C90F64D69"
+				type: "item"
+				title: "_BlackMage_"
+				icon: {
+					id: "statues:player_statue"
+					Count: 1b
+					tag: {
+						display: {
+							Lore: ["[{\"text\":\"Limited Edition\",\"italic\":false}]"]
+							Name: "[{\"text\":\"_BlackMage_\",\"italic\":false,\"color\":\"dark_green\"}]"
+						}
+					}
+				}
+				item: {
+					id: "itemfilters:strong_nbt"
+					Count: 1b
+					tag: {
+						value: {
+							display: {
+								Lore: ["[{\"text\":\"Limited Edition\",\"italic\":false}]"]
+								Name: "[{\"text\":\"_BlackMage_\",\"italic\":false,\"color\":\"dark_green\"}]"
+							}
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "1C5383EFDCF952D7"
+					type: "item"
+					item: "statues:display_stand"
+				}
+				{
+					id: "0F8B8115A13A68DB"
+					type: "item"
+					item: {
+						id: "display_case:display_case"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: -0.5d
+			subtitle: "Administrator"
+			id: "13D42D30A1FD9CFB"
+			tasks: [{
+				id: "6E5EC0F7D6E04A1B"
+				type: "item"
+				title: "Soutemumb"
+				icon: {
+					id: "statues:player_statue"
+					Count: 1b
+					tag: {
+						display: {
+							Lore: ["[{\"text\":\"Limited Edition\",\"italic\":false}]"]
+							Name: "[{\"text\":\"Soutemumb\",\"italic\":false,\"color\":\"dark_green\"}]"
+						}
+					}
+				}
+				item: {
+					id: "itemfilters:strong_nbt"
+					Count: 1b
+					tag: {
+						value: {
+							display: {
+								Lore: ["[{\"text\":\"Limited Edition\",\"italic\":false}]"]
+								Name: "[{\"text\":\"Soutemumb\",\"italic\":false,\"color\":\"dark_green\"}]"
+							}
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "336595C555CEDE0A"
+					type: "item"
+					item: "statues:display_stand"
+				}
+				{
+					id: "091885E0AFD8648B"
+					type: "item"
+					item: {
+						id: "display_case:display_case"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+		}
+	]
+}

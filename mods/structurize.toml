@@ -1,0 +1,13 @@
+name = "Structurize"
+filename = "structurize-1.18.1-1.0.340-ALPHA.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3622/660/structurize-1.18.1-1.0.340-ALPHA.jar"
+hash-format = "murmur2"
+hash = "3707796351"
+
+[update]
+[update.curseforge]
+file-id = 3622660
+project-id = 298744

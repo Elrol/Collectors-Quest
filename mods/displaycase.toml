@@ -1,0 +1,13 @@
+name = "Display Case"
+filename = "DisplayCase-1.18-0.1.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3558/468/DisplayCase-1.18-0.1.jar"
+hash-format = "murmur2"
+hash = "4231518159"
+
+[update]
+[update.curseforge]
+file-id = 3558468
+project-id = 517791

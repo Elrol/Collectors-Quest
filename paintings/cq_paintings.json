@@ -1,0 +1,20 @@
+{
+	"paintings" : [
+		{
+			"name" : "cq_compass", 
+			"square" : 16
+		},
+		{
+			"name" : "cq_compass", 
+			"square" : 32
+		},
+		{
+			"name" : "cq_compass", 
+			"square" : 48
+		},
+		{
+			"name" : "cq_compass", 
+			"square" : 64
+		}
+	]
+}

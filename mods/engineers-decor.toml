@@ -1,0 +1,13 @@
+name = "Engineer's Decor"
+filename = "engineersdecor-1.18.1-1.1.19-b3.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3620/186/engineersdecor-1.18.1-1.1.19-b3.jar"
+hash-format = "murmur2"
+hash = "1332075998"
+
+[update]
+[update.curseforge]
+file-id = 3620186
+project-id = 313866

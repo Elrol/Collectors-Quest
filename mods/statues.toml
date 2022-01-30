@@ -1,0 +1,13 @@
+name = "Statues"
+filename = "Statues-1.18.1-0.1.8.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3623/769/Statues-1.18.1-0.1.8.jar"
+hash-format = "murmur2"
+hash = "2898306890"
+
+[update]
+[update.curseforge]
+file-id = 3623769
+project-id = 253172

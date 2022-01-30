@@ -1,0 +1,13 @@
+name = "Multi-Piston"
+filename = "multi-piston-1.18-1.2.2-ALPHA.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3543/720/multi-piston-1.18-1.2.2-ALPHA.jar"
+hash-format = "murmur2"
+hash = "797948896"
+
+[update]
+[update.curseforge]
+file-id = 3543720
+project-id = 303278

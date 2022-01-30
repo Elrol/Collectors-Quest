@@ -1,0 +1,13 @@
+name = "FTB Library (Forge)"
+filename = "ftb-library-forge-1801.3.5-build.109.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3598/890/ftb-library-forge-1801.3.5-build.109.jar"
+hash-format = "murmur2"
+hash = "3165841462"
+
+[update]
+[update.curseforge]
+file-id = 3598890
+project-id = 404465

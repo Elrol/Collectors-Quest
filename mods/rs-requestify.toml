@@ -1,0 +1,13 @@
+name = "Refined Storage: Requestify"
+filename = "rsrequestify-2.2.0.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3617/200/rsrequestify-2.2.0.jar"
+hash-format = "murmur2"
+hash = "3710591004"
+
+[update]
+[update.curseforge]
+file-id = 3617200
+project-id = 307788

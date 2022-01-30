@@ -1,0 +1,13 @@
+name = "It's the little things"
+filename = "itlt-1.18-2.1.0.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3544/888/itlt-1.18-2.1.0.jar"
+hash-format = "murmur2"
+hash = "2334508326"
+
+[update]
+[update.curseforge]
+file-id = 3544888
+project-id = 232791

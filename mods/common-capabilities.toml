@@ -1,0 +1,13 @@
+name = "Common Capabilities"
+filename = "CommonCapabilities-1.18.1-2.8.1.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3614/900/CommonCapabilities-1.18.1-2.8.1.jar"
+hash-format = "murmur2"
+hash = "3797321128"
+
+[update]
+[update.curseforge]
+file-id = 3614900
+project-id = 247007

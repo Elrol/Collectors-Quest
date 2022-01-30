@@ -1,0 +1,13 @@
+name = "Refined Storage Addons"
+filename = "refinedstorageaddons-0.8.1.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3583/694/refinedstorageaddons-0.8.1.jar"
+hash-format = "murmur2"
+hash = "4214827916"
+
+[update]
+[update.curseforge]
+file-id = 3583694
+project-id = 272302

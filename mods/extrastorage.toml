@@ -1,0 +1,13 @@
+name = "ExtraStorage"
+filename = "ExtraStorage-1.18.1-2.0.1.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3584/356/ExtraStorage-1.18.1-2.0.1.jar"
+hash-format = "murmur2"
+hash = "2780729138"
+
+[update]
+[update.curseforge]
+file-id = 3584356
+project-id = 410168

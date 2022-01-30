@@ -1,0 +1,54 @@
+{
+	id: "499C9C277013838B"
+	order_index: 1
+	title: "Player Statues"
+	icon: {
+		id: "statues:player_statue"
+		Count: 1b
+		tag: {
+			display: {
+				Lore: ["[{\"text\":\"Limited Edition\",\"italic\":false}]"]
+				Name: "[{\"text\":\"Elrol_Arrowsend\",\"italic\":false,\"color\":\"dark_green\"}]"
+			}
+		}
+	}
+	loot_size: 1
+	rewards: [
+		{
+			item: {
+				id: "statues:player_statue"
+				Count: 1b
+				tag: {
+					display: {
+						Lore: ["[{\"text\":\"Limited Edition\",\"italic\":false}]"]
+						Name: "[{\"text\":\"Elrol_Arrowsend\",\"italic\":false,\"color\":\"dark_green\"}]"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "statues:player_statue"
+				Count: 1b
+				tag: {
+					display: {
+						Lore: ["[{\"text\":\"Limited Edition\",\"italic\":false}]"]
+						Name: "[{\"text\":\"_BlackMage_\",\"italic\":false,\"color\":\"dark_green\"}]"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "statues:player_statue"
+				Count: 1b
+				tag: {
+					display: {
+						Lore: ["[{\"text\":\"Limited Edition\",\"italic\":false}]"]
+						Name: "[{\"text\":\"Soutemumb\",\"italic\":false,\"color\":\"dark_green\"}]"
+					}
+				}
+			}
+		}
+	]
+}

@@ -1,0 +1,13 @@
+name = "Flat Bedrock"
+filename = "flatbedrock-1.4.0-build.6+mc1.18.1.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3562/395/flatbedrock-1.4.0-build.6+mc1.18.1.jar"
+hash-format = "murmur2"
+hash = "88942349"
+
+[update]
+[update.curseforge]
+file-id = 3562395
+project-id = 398623

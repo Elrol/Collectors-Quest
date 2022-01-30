@@ -1,0 +1,13 @@
+name = "Health Overlay (Forge)"
+filename = "HealthOverlay-1.18.1-6.0.0.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3562/379/HealthOverlay-1.18.1-6.0.0.jar"
+hash-format = "murmur2"
+hash = "2863005988"
+
+[update]
+[update.curseforge]
+file-id = 3562379
+project-id = 368223

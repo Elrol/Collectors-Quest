@@ -1,0 +1,621 @@
+{
+	id: "30957C18D0825254"
+	group: ""
+	order_index: 1
+	filename: "marketplace"
+	title: "Marketplace"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Bulk Sell Stone"
+			x: -1.0d
+			y: -4.5d
+			id: "22D78BD9B3752ED6"
+			tasks: [{
+				id: "076D80DE815C10BE"
+				type: "item"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:stone"
+					}
+				}
+				count: 64L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "4244354C08563DA3"
+				type: "item"
+				item: "kubejs:coin1"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -3.0d
+			dependencies: [
+				"6FC9344DAAD0C5F4"
+				"3C9DC3CFD81D3CBC"
+				"01D3B8A679B9C3C7"
+				"47EEE2892200B18B"
+				"60D4BFCB25E6F108"
+				"47DF304395E0F9ED"
+				"7FB784C9DBC6FC24"
+				"0DAA901D71535D7D"
+				"5009BFA4DFE027FC"
+				"41AFF17A7AF91AAF"
+				"3842D55AB580E2EC"
+				"251F72784CF2AF37"
+				"0C46929AB9B499C3"
+				"454CFB12AB5C3FC0"
+				"5F003EFAAE4D8FC8"
+				"7D3E22997B4E073A"
+				"2D8389676CA7100B"
+				"6A16F021707F71C2"
+				"127059E787EDE690"
+				"2F3034E3D095293F"
+				"115C0E4B15385656"
+				"1FA0C09D32549CF2"
+				"72A25BACBF08C3B4"
+				"22D78BD9B3752ED6"
+				"1169D0B59E95D983"
+				"06833700C74B0857"
+				"2F3C64A32670AFAC"
+				"39C6B7C43067AB9A"
+			]
+			id: "71375CFA185B8825"
+			tasks: [{
+				id: "01DAF64DB4287A46"
+				type: "checkmark"
+				title: "Prestige"
+			}]
+			rewards: [
+				{
+					id: "294ACE1515C6D78D"
+					type: "item"
+					auto: "enabled"
+					item: "kubejs:prestige_gem"
+				}
+				{
+					id: "5B68C586F8C2C5D3"
+					type: "choice"
+					table_id: 2200589379600484185L
+				}
+				{
+					id: "48FE405D4F8482D1"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 71375CFA185B8825"
+					player_command: false
+				}
+				{
+					id: "3130DAD395B7A7D7"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 22D78BD9B3752ED6"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "Prestige Shop"
+			x: 6.0d
+			y: -3.0d
+			subtitle: "Spend your Prestige Gems"
+			description: [
+				"Be warned:"
+				"Placing the limited edition player statues will make them common variants, removing the formatting on the statue."
+			]
+			id: "6B4561090316FDBF"
+			tasks: [{
+				id: "05B3C0494C70A063"
+				type: "item"
+				item: "kubejs:prestige_gem"
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "21B586ADE162D0E6"
+					type: "choice"
+					title: "Player Statue"
+					icon: {
+						id: "statues:player_statue"
+						Count: 1b
+						tag: {
+							display: {
+								Lore: ["[{\"text\":\"Limited Edition\",\"italic\":false}]"]
+								Name: "[{\"text\":\"Elrol_Arrowsend\",\"italic\":false,\"color\":\"dark_green\"}]"
+							}
+						}
+					}
+					table_id: 5304286154333586315L
+				}
+				{
+					id: "13A7D041F1B70FBE"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 6B4561090316FDBF"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "Bulk Sell Wood"
+			x: -2.5d
+			y: -5.0d
+			id: "06833700C74B0857"
+			tasks: [{
+				id: "7950BFD434F87770"
+				type: "item"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
+				count: 64L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "4E0EF079EB9F4ED3"
+				type: "item"
+				item: "kubejs:coin1"
+			}]
+		}
+		{
+			title: "Bulk Sell Iron"
+			x: -0.5d
+			y: -3.0d
+			id: "0C46929AB9B499C3"
+			tasks: [{
+				id: "377B70F5D7AAA12B"
+				type: "item"
+				item: "minecraft:iron_ingot"
+				count: 64L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "2A29C49BAEB14D5C"
+				type: "item"
+				item: "kubejs:coin1"
+			}]
+		}
+		{
+			title: "Bulk Sell Gold"
+			x: -1.0d
+			y: -1.5d
+			id: "3842D55AB580E2EC"
+			tasks: [{
+				id: "726EE2771A7D6BB9"
+				type: "item"
+				item: "minecraft:gold_ingot"
+				count: 64L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "4BA9C26C6AD75880"
+				type: "item"
+				item: "kubejs:coin1"
+			}]
+		}
+		{
+			title: "Bulk Sell Diamond"
+			x: -2.5d
+			y: -1.0d
+			id: "7FB784C9DBC6FC24"
+			tasks: [{
+				id: "610871D8DC92D5F7"
+				type: "item"
+				item: "minecraft:diamond"
+				count: 64L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "45A070A1A884899A"
+				type: "item"
+				item: "kubejs:coin1"
+			}]
+		}
+		{
+			title: "Bulk Sell Emerald"
+			x: -4.0d
+			y: -1.5d
+			id: "5009BFA4DFE027FC"
+			tasks: [{
+				id: "26573AA15B875172"
+				type: "item"
+				item: "minecraft:emerald"
+				count: 64L
+				consume_items: true
+			}]
+		}
+		{
+			title: "Bulk Sell Coal"
+			x: -4.0d
+			y: -4.5d
+			id: "47EEE2892200B18B"
+			tasks: [{
+				id: "58BBEE0D12A027ED"
+				type: "item"
+				item: "minecraft:coal"
+				count: 64L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "5A38A028E075387D"
+				type: "item"
+				item: "kubejs:coin1"
+			}]
+		}
+		{
+			title: "Bulk Sell Lapis Lazuli"
+			x: -4.5d
+			y: -3.0d
+			id: "454CFB12AB5C3FC0"
+			tasks: [{
+				id: "7562F9230D6FA96E"
+				type: "item"
+				item: "minecraft:lapis_lazuli"
+				count: 64L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "15BBEFF2E71D69C5"
+				type: "item"
+				item: "kubejs:coin1"
+			}]
+		}
+		{
+			title: "Bulk Sell Redstone"
+			x: -5.0d
+			y: -4.0d
+			id: "2F3034E3D095293F"
+			tasks: [{
+				id: "4CA9830749547BA4"
+				type: "item"
+				item: "minecraft:redstone"
+				count: 64L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "7BF84C760C3864A0"
+				type: "item"
+				item: "kubejs:coin1"
+			}]
+		}
+		{
+			title: "Bulk Sell Glass"
+			x: -3.5d
+			y: -5.5d
+			id: "41AFF17A7AF91AAF"
+			tasks: [{
+				id: "2E56D418065EE848"
+				type: "item"
+				item: "minecraft:glass"
+				count: 64L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "376BF37301A0D340"
+				type: "item"
+				item: "kubejs:coin1"
+			}]
+		}
+		{
+			title: "Bulk Sell Wool"
+			x: -1.5d
+			y: -5.5d
+			id: "2F3C64A32670AFAC"
+			tasks: [{
+				id: "23136275D91E13C9"
+				type: "item"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "minecraft:wool"
+					}
+				}
+				count: 64L
+			}]
+			rewards: [{
+				id: "7F49A51B0FFDA2A7"
+				type: "item"
+				item: "kubejs:coin1"
+			}]
+		}
+		{
+			title: "Bulk Sell Copper"
+			x: 0.0d
+			y: -4.0d
+			id: "47DF304395E0F9ED"
+			tasks: [{
+				id: "6FF82F269CC62068"
+				type: "item"
+				item: "minecraft:copper_ingot"
+				count: 64L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "7C702AB1CF9CF7F1"
+				type: "item"
+				item: "kubejs:coin1"
+			}]
+		}
+		{
+			title: "Bulk Sell Lead"
+			x: 1.0d
+			y: -3.5d
+			id: "5F003EFAAE4D8FC8"
+			tasks: [{
+				id: "260CAF17CFDBD85C"
+				type: "item"
+				item: "immersiveengineering:ingot_lead"
+				count: 64L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "219B0EF2E667BFD1"
+				type: "item"
+				item: "kubejs:coin1"
+			}]
+		}
+		{
+			title: "Bulk Sell Aluminium"
+			x: -2.0d
+			y: 0.5d
+			id: "6FC9344DAAD0C5F4"
+			tasks: [{
+				id: "132FDF09CB83CACF"
+				type: "item"
+				item: "immersiveengineering:ingot_aluminum"
+				count: 64L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "6395CF974861416D"
+				type: "item"
+				item: "kubejs:coin1"
+			}]
+		}
+		{
+			title: "Bulk Sell Silver"
+			x: 1.0d
+			y: -2.5d
+			id: "115C0E4B15385656"
+			tasks: [{
+				id: "1C70AE5B69A8D9E5"
+				type: "item"
+				item: "immersiveengineering:ingot_silver"
+				count: 64L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "5230A5FF344E78C2"
+				type: "item"
+				item: "kubejs:coin1"
+			}]
+		}
+		{
+			title: "Bulk Sell Nickel"
+			x: 0.0d
+			y: -2.0d
+			id: "127059E787EDE690"
+			tasks: [{
+				id: "51AE97631EA4C9F4"
+				type: "item"
+				item: "immersiveengineering:ingot_nickel"
+				count: 64L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "49930FB966873B33"
+				type: "item"
+				item: "kubejs:coin1"
+			}]
+		}
+		{
+			title: "Bulk Sell Uranium"
+			x: -3.5d
+			y: -0.5d
+			id: "1169D0B59E95D983"
+			tasks: [{
+				id: "1BD1324A973B034C"
+				type: "item"
+				item: "immersiveengineering:ingot_uranium"
+				count: 64L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "07D96AD367F552FD"
+				type: "item"
+				item: "kubejs:coin1"
+			}]
+		}
+		{
+			title: "Bulk Sell Constantan"
+			x: -3.0d
+			y: 0.5d
+			id: "60D4BFCB25E6F108"
+			tasks: [{
+				id: "1B46A7A3A6E6C845"
+				type: "item"
+				item: "immersiveengineering:ingot_constantan"
+				count: 64L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "5D815A26EC6D1B72"
+				type: "item"
+				item: "kubejs:coin1"
+			}]
+		}
+		{
+			title: "Bulk Sell Electrum"
+			x: -5.0d
+			y: -2.0d
+			id: "0DAA901D71535D7D"
+			tasks: [{
+				id: "13CA2906A28A8F36"
+				type: "item"
+				item: "immersiveengineering:ingot_electrum"
+				count: 64L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "4B8299CBBBE041F1"
+				type: "item"
+				item: "kubejs:coin1"
+			}]
+		}
+		{
+			title: "Bulk Sell Steel"
+			x: -6.0d
+			y: -2.5d
+			id: "72A25BACBF08C3B4"
+			tasks: [{
+				id: "2DBFFD70AC6322FD"
+				type: "item"
+				item: "immersiveengineering:ingot_steel"
+				count: 64L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "460EA4C4609FEA10"
+				type: "item"
+				item: "kubejs:coin1"
+			}]
+		}
+		{
+			title: "Bulk Sell Zinc"
+			x: -6.0d
+			y: -3.5d
+			id: "39C6B7C43067AB9A"
+			tasks: [{
+				id: "64CCF63C207AD8C9"
+				type: "item"
+				item: "create:zinc_ingot"
+				count: 64L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "4FFA2C01E68187BC"
+				type: "item"
+				item: "kubejs:coin1"
+			}]
+		}
+		{
+			title: "Bulk Sell Brass"
+			x: -2.0d
+			y: -6.5d
+			id: "01D3B8A679B9C3C7"
+			tasks: [{
+				id: "736BB26649A2285F"
+				type: "item"
+				item: "create:brass_ingot"
+				count: 64L
+				consume_items: true
+			}]
+		}
+		{
+			title: "Bulk Sell Hallowed Gold"
+			x: -1.5d
+			y: -0.5d
+			id: "251F72784CF2AF37"
+			tasks: [{
+				id: "0046FB58B47ABE1A"
+				type: "item"
+				item: "malum:hallowed_gold_ingot"
+				count: 64L
+				consume_items: true
+			}]
+		}
+		{
+			title: "Bulk Sell Soul Stained Steel"
+			x: -2.5d
+			y: 1.5d
+			id: "1FA0C09D32549CF2"
+			tasks: [{
+				id: "2FD6F9FBAA4CAC45"
+				type: "item"
+				item: "malum:soul_stained_steel_ingot"
+				count: 64L
+				consume_items: true
+			}]
+		}
+		{
+			title: "Bulk Sell Neptunium"
+			x: -3.0d
+			y: -6.5d
+			id: "7D3E22997B4E073A"
+			tasks: [{
+				id: "226973F2A1A56A9E"
+				type: "item"
+				item: "aquaculture:neptunium_ingot"
+				count: 64L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "6A7C262D5BE0F0F7"
+				type: "item"
+				item: "kubejs:coin1"
+			}]
+		}
+		{
+			title: "Bulk Sell Amethyst"
+			x: 2.0d
+			y: -3.0d
+			id: "3C9DC3CFD81D3CBC"
+			tasks: [{
+				id: "0BFA21B9D11F8357"
+				type: "item"
+				item: "minecraft:amethyst_shard"
+				count: 64L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "247F7DE60F9326D2"
+				type: "item"
+				item: "kubejs:coin1"
+			}]
+		}
+		{
+			title: "Bulk Sell Netherite"
+			x: -7.0d
+			y: -3.0d
+			id: "6A16F021707F71C2"
+			tasks: [{
+				id: "0326415217148E46"
+				type: "item"
+				item: "minecraft:netherite_ingot"
+				count: 64L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "7D824C112D22C25B"
+				type: "item"
+				item: "kubejs:coin1"
+			}]
+		}
+		{
+			title: "Bulk Sell Nether Quartz"
+			x: -2.5d
+			y: -7.5d
+			id: "2D8389676CA7100B"
+			tasks: [{
+				id: "51FA723C13065948"
+				type: "item"
+				item: "minecraft:quartz"
+				count: 64L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "27CC25036FD48675"
+				type: "item"
+				item: "kubejs:coin1"
+			}]
+		}
+	]
+}

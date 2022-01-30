@@ -1,0 +1,13 @@
+name = "FTB Teams (Forge)"
+filename = "ftb-teams-forge-1801.2.4-build.46.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3596/307/ftb-teams-forge-1801.2.4-build.46.jar"
+hash-format = "murmur2"
+hash = "3075529403"
+
+[update]
+[update.curseforge]
+file-id = 3596307
+project-id = 404468
